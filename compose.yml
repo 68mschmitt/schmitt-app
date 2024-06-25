@@ -1,0 +1,7 @@
+services:
+  api:
+    build:
+      context: API
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
